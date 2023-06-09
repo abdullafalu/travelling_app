@@ -52,9 +52,10 @@ class _HomeScreenState extends State<HomeScreen> {
                         height: 50,
                         width: 50,
                         decoration: BoxDecoration(
+                          color: kWhiteColor,
                           borderRadius: BorderRadius.circular(10),
                           image: const DecorationImage(
-                            image: AssetImage("assets/images/images.jpg"),
+                            image: AssetImage("assets/images/flight.png"),
                             fit: BoxFit.fitHeight,
                           ),
                         ),
@@ -77,7 +78,8 @@ class _HomeScreenState extends State<HomeScreen> {
                         borderRadius: BorderRadius.circular(12)),
                   ),
                   const Gap(40),
-                  const AppDoubleText(bigText: "Upcoming Flights", smallText: "view all"),
+                  const AppDoubleText(
+                      bigText: "Upcoming Flights", smallText: "view all"),
                   const Gap(15),
                   const SingleChildScrollView(
                     physics: BouncingScrollPhysics(),
@@ -129,10 +131,10 @@ class _HomeScreenState extends State<HomeScreen> {
                     ),
                   ),
                   const Gap(15),
-                 const Padding(
-                    padding:  EdgeInsets.symmetric(horizontal: 4),
-                    child: AppDoubleText(bigText: "Hotels", smallText: "View all")
-                  ),
+                  const Padding(
+                      padding: EdgeInsets.symmetric(horizontal: 4),
+                      child: AppDoubleText(
+                          bigText: "Hotels", smallText: "View all")),
 
                   //hotel view card starting......
                   SingleChildScrollView(
