@@ -208,7 +208,7 @@ class _TicketScreenState extends State<TicketScreen> {
                 decoration: BoxDecoration(
                     shape: BoxShape.circle,
                     border: Border.all(color: kBlackColor, width: 2)),
-                child: CircleAvatar(
+                child:const CircleAvatar(
                   radius: 5,
                   backgroundColor: kBlackColor,
                 ),
@@ -223,7 +223,7 @@ class _TicketScreenState extends State<TicketScreen> {
                 decoration: BoxDecoration(
                     shape: BoxShape.circle,
                     border: Border.all(color: kBlackColor, width: 2)),
-                child: CircleAvatar(
+                child:const CircleAvatar(
                   radius: 5,
                   backgroundColor: kBlackColor,
                 ),

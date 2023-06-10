@@ -106,7 +106,7 @@ class SearchScreen extends StatelessWidget {
                         left: AppLayout.getHeight(15),
                       ),
                       height: AppLayout.getHeight(170),
-                      width: MediaQuery.of(context).size.width * 0.44,
+                      width: MediaQuery.of(context).size.width * 0.43,
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(15),
                         color: const Color.fromARGB(255, 13, 181, 219),
@@ -131,7 +131,7 @@ class SearchScreen extends StatelessWidget {
                               "Take the survey about your service and get discount",
                               style: headLineStyle2.copyWith(
                                   fontWeight: FontWeight.w500,
-                                  fontSize: 18,
+                                  fontSize: 16,
                                   color: kWhiteColor),
                             ),
                           ],
@@ -146,7 +146,7 @@ class SearchScreen extends StatelessWidget {
                         decoration: BoxDecoration(
                           shape: BoxShape.circle,
                           border: Border.all(
-                            color: Color.fromARGB(255, 18, 130, 155),
+                            color:const Color.fromARGB(255, 18, 130, 155),
                             width: 18,
                           ),
                           color: Colors.transparent,
@@ -163,7 +163,7 @@ class SearchScreen extends StatelessWidget {
                       horizontal: AppLayout.getWidth(15)),
                   margin: EdgeInsets.only(left: AppLayout.getHeight(15)),
                   height: AppLayout.getHeight(210),
-                  width: MediaQuery.of(context).size.width * 0.44,
+                  width: MediaQuery.of(context).size.width * 0.43,
                   decoration: BoxDecoration(
                     borderRadius: BorderRadius.circular(15),
                     color: orangeColor,

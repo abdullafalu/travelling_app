@@ -36,7 +36,7 @@ class TicketTabs extends StatelessWidget {
           ),
           Container(
             padding: EdgeInsets.symmetric(vertical: AppLayout.getHeight(7)),
-            width: MediaQuery.of(context).size.width * .44,
+            width: MediaQuery.of(context).size.width * .43,
             decoration: BoxDecoration(
               borderRadius: BorderRadius.horizontal(
                   right: Radius.circular(AppLayout.getHeight(50))),
