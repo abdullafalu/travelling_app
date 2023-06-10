@@ -1,16 +1,16 @@
-# travelling_app
+# Travalling_app
 
-A new Flutter project.
+I am happy to share with you my complete travelling app UI,
 
-## Getting Started
+## ScreenShots
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<table>
+    <tr>
+        <td><img src="assets/images/screenshot1.jpg" width="300" /></td>
+        <td><img src="assets/images/screenshot2.jpg" width="300" /></td>
+    </tr>
+    <tr>
+        <td><img src="assets/images/screenshot3.jpg" width="300" /></td>
+        <td><img src="assets/images/screenshot4.jpg" width="300" /></td>
+    </tr>
+</table>
